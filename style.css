@@ -1,0 +1,262 @@
+body{
+    background-color: black;
+
+}
+.container {
+    height: 800px;
+}
+.block{
+    /* margin-top: 10%; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+.description{
+    text-align: center;
+}
+h1{
+    margin-top: 3cm;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3.4rem;
+    color: white;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2rem;
+    color: white;
+
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.5rem;
+    color: white;
+    margin-top:0.9cm;
+}
+.Inner_container{
+    /* background-image:url("images/image_5.jpg"); */
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/image_5.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
+    height : 45.5rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-bottom: 0.5rem solid #222;
+
+
+}
+.form {
+    height: 10cm;
+    padding-left:8%;
+    margin-top: 2cm;
+}
+
+#form_values{
+    display: flex;
+    text-align: center;
+    margin-left: 9cm;
+    height:1.5cm;
+    
+
+}
+.email_adress{
+    font-size:1.2rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.8rem;
+    width: 10cm;
+    background-color: white;
+    border-color: white;
+    
+
+}
+.sign_up{
+    /* font-weight: 500; */
+    width: 5cm;
+    font-size:1.8rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: red;
+    color:white;
+    border-color: rgb(227, 10, 10);
+}
+.Netflix_logo{
+    margin-top: 0.65cm;
+    margin-left: 0.85cm;
+    width: 4cm;
+    background-blend-mode: screen;
+
+}
+.sign_in{
+    background-color: red;
+    font-size: 15px;
+    color:white;
+    float: right;
+    border-radius: 10%;
+    border-color:red;
+    margin-top: 0.5cm;
+    margin-right:1cm;
+    padding:1mm;
+}
+
+.display{
+    display: inline;
+    border-bottom: 0.5rem solid #222;
+}
+.video{
+    height: 6cm;
+    width: 10cm;
+}
+.display_1 a{
+    font-size: xx-large;
+    font-weight: 600;
+}
+.display_1 p{
+    margin-top: 4cm;
+}
+.display_1{
+    padding-left: 4%;
+    display:flex;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+    border-bottom:0.5rem solid #222;
+}
+.video_bg{
+    width:10cm;
+    height: 11cm;
+    padding-left: 3cm;
+}
+.video_text a{
+    font-size:3 rem;
+}
+.video_text{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:5cm;
+    align-items: center;
+}
+.questions{
+    text-align: center  ;
+    padding-top: 1cm;
+    padding-bottom: 1.5cm;
+    border-bottom: 0.5rem solid #222;
+}
+.questions p {
+    font-weight: 800;
+    font-size: 2.8rem;
+}
+.buttons{
+    
+    margin-bottom:0.15cm;
+    height: 2cm;
+    justify-content: center;
+    text-align: left;
+    font-size:1.4rem;
+    width: 20cm;
+    font-weight: 400;
+    background-color:#222;
+    color: white;
+    padding: 0.5cm;
+}
+.for-kids{
+    padding-left: 8%;
+    display: flex;
+    padding-top:1.5cm;
+    padding-bottom: 1.5cm;
+    border-bottom:0.5rem solid #222;
+}
+.photo{
+    margin-left:3.5cm;
+    height: 8cm;
+    width: 12cm;
+}
+.for-kids-content{
+    margin-left:2cm;
+    /* margin-left: 4cm; */
+}
+.content_2{
+    font-size: xx-large;
+    font-weight: 900;
+
+}
+.mac_display{
+    border-bottom:0.5rem solid #222;
+    padding-left: 8%;
+    display:flex;
+    padding-top: 2cm;
+    padding-bottom: 2cm;
+    
+}
+.mac_description{
+    margin-left:3.5cm;
+}
+.mac_description a{
+    font-size: 3rem;
+}
+.display_4{
+    background-image: url("images/photo.png");
+    position: absolute;
+    /* background-color: black; */
+    /* box-shadow: 0 0 5px 5px #222; */
+    background-size:cover;
+    margin-left: 2.9cm;
+    height: 8cm;
+    width: 12cm;    
+    border-width:0.5rem;
+    border-color: #222;
+    /* margin-bottom:2cm; */
+    position: relative;
+}
+.video_2{
+    position: absolute;
+    margin-left: 1.8cm;
+    margin-top:4.7%;  
+    height:4.5cm;
+    /* margin-left: 1.2cm; */
+}
+.mobile{
+    padding-left:8%;
+    display:flex;
+    padding-top: 1.5cm;
+    padding-bottom: 1.5cm;
+    border-bottom:0.5rem solid #222;
+    
+    /* margin-top: 5%; */
+} 
+.mobile_netflix{
+    /* margin-left:2cm; */
+    height: 10cm;
+}
+
+.mobile_content{
+    margin-left:4cm;
+    margin-top:8%;
+}
+
+.mobile_content a{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.footer {
+    padding-top: 1.5cm;
+    margin-left: 10cm;
+    padding-bottom: 1cm;
+}
+
+.wrapping{
+    flex-direction: row;
+
+}
+.footer_table li{
+    padding:4%;
+}
+.footer_table ul{
+    /* flex-direction: column; */
+    padding-left: 5cm;
+    /* margin-left: 2cm; */
+}
+.footer_table {
+    display: flex;
+    width: 20cm;
+    margin-left: -5cm;
+}
